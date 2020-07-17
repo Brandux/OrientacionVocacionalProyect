@@ -74,7 +74,7 @@ $app->configure('database');
 */
 
 $app->middleware([
-    // App\Http\Middleware\AuthenticateAccess::class
+    App\Http\Middleware\AuthenticateAccess::class
 ]);
 
 /*
